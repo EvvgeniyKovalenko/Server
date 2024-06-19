@@ -1,0 +1,21 @@
+{
+  "name": "start-new-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "License": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": " yarn nodemon ./dist/index.js",
+    "build":"tsc",
+    "start":"node dist/index.js"
+  },
+  "dependencies": {
+  "express": "4.17.3"
+  },
+
+  "devDependencies": {
+  "@types/express": "4.17.13",
+  "@types/node": "17.0.23",
+  "nodemon": "2.0.15",
+  "ts-node": "10.7.0",
+  "typescript": "4.6.3"}}
